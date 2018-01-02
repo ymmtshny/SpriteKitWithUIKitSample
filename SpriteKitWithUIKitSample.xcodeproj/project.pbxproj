@@ -15,6 +15,19 @@
 		C5B724AF1FFA961500451FD7 /* LightScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5B724AE1FFA961500451FD7 /* LightScene.sks */; };
 		C5B724B11FFA964F00451FD7 /* Bokeh.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5B724B01FFA964F00451FD7 /* Bokeh.sks */; };
 		C5B724B31FFA96BD00451FD7 /* LightScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B724B21FFA96BD00451FD7 /* LightScene.swift */; };
+		C5B724BB1FFAD07300451FD7 /* SKUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B724BA1FFAD07300451FD7 /* SKUIViewController.swift */; };
+		C5B724BD1FFAD60200451FD7 /* GravityTest_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B724BC1FFAD60200451FD7 /* GravityTest_2_ViewController.swift */; };
+		C5B724C01FFAD65B00451FD7 /* GravityTest_2_SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B724BF1FFAD65B00451FD7 /* GravityTest_2_SKScene.swift */; };
+		C5DD9BC71FFAD943004173D7 /* GravityTest_1_SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD9BC51FFAD943004173D7 /* GravityTest_1_SKScene.swift */; };
+		C5DD9BC81FFAD943004173D7 /* GravityTest_1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD9BC61FFAD943004173D7 /* GravityTest_1_ViewController.swift */; };
+		C5DD9BCB1FFADE23004173D7 /* GravityTest_3_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD9BCA1FFADE23004173D7 /* GravityTest_3_ViewController.swift */; };
+		C5DD9BCD1FFADE35004173D7 /* GravityTest_3_SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD9BCC1FFADE35004173D7 /* GravityTest_3_SKScene.swift */; };
+		C5DD9BD01FFB8E13004173D7 /* rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5DD9BCE1FFB8E13004173D7 /* rain.sks */; };
+		C5DD9BD11FFB8E13004173D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DD9BCF1FFB8E13004173D7 /* Assets.xcassets */; };
+		C5DD9BD31FFBAFBD004173D7 /* ParticleTest_1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD9BD21FFBAFBD004173D7 /* ParticleTest_1_ViewController.swift */; };
+		C5DD9BDA1FFBB01E004173D7 /* ParticleTest_1.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5DD9BD91FFBB01E004173D7 /* ParticleTest_1.sks */; };
+		C5DD9BDC1FFBB03F004173D7 /* ParticleTest_1_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DD9BDB1FFBB03F004173D7 /* ParticleTest_1_ViewController.xib */; };
+		C5DD9BDE1FFBB1D5004173D7 /* ParticleTest_1_SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD9BDD1FFBB1D5004173D7 /* ParticleTest_1_SKScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +41,19 @@
 		C5B724AE1FFA961500451FD7 /* LightScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LightScene.sks; sourceTree = "<group>"; };
 		C5B724B01FFA964F00451FD7 /* Bokeh.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bokeh.sks; sourceTree = "<group>"; };
 		C5B724B21FFA96BD00451FD7 /* LightScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightScene.swift; sourceTree = "<group>"; };
+		C5B724BA1FFAD07300451FD7 /* SKUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKUIViewController.swift; sourceTree = "<group>"; };
+		C5B724BC1FFAD60200451FD7 /* GravityTest_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityTest_2_ViewController.swift; sourceTree = "<group>"; };
+		C5B724BF1FFAD65B00451FD7 /* GravityTest_2_SKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityTest_2_SKScene.swift; sourceTree = "<group>"; };
+		C5DD9BC51FFAD943004173D7 /* GravityTest_1_SKScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravityTest_1_SKScene.swift; sourceTree = "<group>"; };
+		C5DD9BC61FFAD943004173D7 /* GravityTest_1_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravityTest_1_ViewController.swift; sourceTree = "<group>"; };
+		C5DD9BCA1FFADE23004173D7 /* GravityTest_3_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityTest_3_ViewController.swift; sourceTree = "<group>"; };
+		C5DD9BCC1FFADE35004173D7 /* GravityTest_3_SKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityTest_3_SKScene.swift; sourceTree = "<group>"; };
+		C5DD9BCE1FFB8E13004173D7 /* rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rain.sks; sourceTree = "<group>"; };
+		C5DD9BCF1FFB8E13004173D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5DD9BD21FFBAFBD004173D7 /* ParticleTest_1_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleTest_1_ViewController.swift; sourceTree = "<group>"; };
+		C5DD9BD91FFBB01E004173D7 /* ParticleTest_1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleTest_1.sks; sourceTree = "<group>"; };
+		C5DD9BDB1FFBB03F004173D7 /* ParticleTest_1_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticleTest_1_ViewController.xib; sourceTree = "<group>"; };
+		C5DD9BDD1FFBB1D5004173D7 /* ParticleTest_1_SKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleTest_1_SKScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +88,77 @@
 			children = (
 				C5B7249C1FFA95A900451FD7 /* AppDelegate.swift */,
 				C5B7249E1FFA95A900451FD7 /* ViewController.swift */,
-				C5B724AE1FFA961500451FD7 /* LightScene.sks */,
-				C5B724B21FFA96BD00451FD7 /* LightScene.swift */,
-				C5B724B01FFA964F00451FD7 /* Bokeh.sks */,
+				C5B724BA1FFAD07300451FD7 /* SKUIViewController.swift */,
+				C5DD9BD41FFBAFCE004173D7 /* ParticleTest_1 */,
+				C5DD9BDF1FFBBD7A004173D7 /* ParticleTest_2 */,
+				C5DD9BC41FFAD943004173D7 /* GravityTest_1 */,
+				C5B724BE1FFAD63A00451FD7 /* GravityTest_2 */,
+				C5DD9BC91FFADE03004173D7 /* GravityTest_3 */,
+				C5B724B61FFACC7D00451FD7 /* New Group */,
 				C5B724A01FFA95A900451FD7 /* Main.storyboard */,
 				C5B724A31FFA95A900451FD7 /* Assets.xcassets */,
 				C5B724A51FFA95A900451FD7 /* LaunchScreen.storyboard */,
 				C5B724A81FFA95A900451FD7 /* Info.plist */,
 			);
 			path = SpriteKitWithUIKitSample;
+			sourceTree = "<group>";
+		};
+		C5B724B61FFACC7D00451FD7 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C5B724AE1FFA961500451FD7 /* LightScene.sks */,
+				C5B724B21FFA96BD00451FD7 /* LightScene.swift */,
+				C5B724B01FFA964F00451FD7 /* Bokeh.sks */,
+				C5DD9BCE1FFB8E13004173D7 /* rain.sks */,
+				C5DD9BCF1FFB8E13004173D7 /* Assets.xcassets */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C5B724BE1FFAD63A00451FD7 /* GravityTest_2 */ = {
+			isa = PBXGroup;
+			children = (
+				C5B724BC1FFAD60200451FD7 /* GravityTest_2_ViewController.swift */,
+				C5B724BF1FFAD65B00451FD7 /* GravityTest_2_SKScene.swift */,
+			);
+			path = GravityTest_2;
+			sourceTree = "<group>";
+		};
+		C5DD9BC41FFAD943004173D7 /* GravityTest_1 */ = {
+			isa = PBXGroup;
+			children = (
+				C5DD9BC51FFAD943004173D7 /* GravityTest_1_SKScene.swift */,
+				C5DD9BC61FFAD943004173D7 /* GravityTest_1_ViewController.swift */,
+			);
+			path = GravityTest_1;
+			sourceTree = "<group>";
+		};
+		C5DD9BC91FFADE03004173D7 /* GravityTest_3 */ = {
+			isa = PBXGroup;
+			children = (
+				C5DD9BCA1FFADE23004173D7 /* GravityTest_3_ViewController.swift */,
+				C5DD9BCC1FFADE35004173D7 /* GravityTest_3_SKScene.swift */,
+			);
+			path = GravityTest_3;
+			sourceTree = "<group>";
+		};
+		C5DD9BD41FFBAFCE004173D7 /* ParticleTest_1 */ = {
+			isa = PBXGroup;
+			children = (
+				C5DD9BD21FFBAFBD004173D7 /* ParticleTest_1_ViewController.swift */,
+				C5DD9BDB1FFBB03F004173D7 /* ParticleTest_1_ViewController.xib */,
+				C5DD9BD91FFBB01E004173D7 /* ParticleTest_1.sks */,
+				C5DD9BDD1FFBB1D5004173D7 /* ParticleTest_1_SKScene.swift */,
+			);
+			path = ParticleTest_1;
+			sourceTree = "<group>";
+		};
+		C5DD9BDF1FFBBD7A004173D7 /* ParticleTest_2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ParticleTest_2;
+			path = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,11 +220,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DD9BDA1FFBB01E004173D7 /* ParticleTest_1.sks in Resources */,
 				C5B724A71FFA95A900451FD7 /* LaunchScreen.storyboard in Resources */,
 				C5B724B11FFA964F00451FD7 /* Bokeh.sks in Resources */,
+				C5DD9BDC1FFBB03F004173D7 /* ParticleTest_1_ViewController.xib in Resources */,
 				C5B724A41FFA95A900451FD7 /* Assets.xcassets in Resources */,
 				C5B724A21FFA95A900451FD7 /* Main.storyboard in Resources */,
+				C5DD9BD11FFB8E13004173D7 /* Assets.xcassets in Resources */,
 				C5B724AF1FFA961500451FD7 /* LightScene.sks in Resources */,
+				C5DD9BD01FFB8E13004173D7 /* rain.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DD9BCB1FFADE23004173D7 /* GravityTest_3_ViewController.swift in Sources */,
+				C5B724C01FFAD65B00451FD7 /* GravityTest_2_SKScene.swift in Sources */,
 				C5B7249F1FFA95A900451FD7 /* ViewController.swift in Sources */,
+				C5B724BD1FFAD60200451FD7 /* GravityTest_2_ViewController.swift in Sources */,
+				C5B724BB1FFAD07300451FD7 /* SKUIViewController.swift in Sources */,
 				C5B7249D1FFA95A900451FD7 /* AppDelegate.swift in Sources */,
+				C5DD9BDE1FFBB1D5004173D7 /* ParticleTest_1_SKScene.swift in Sources */,
+				C5DD9BC81FFAD943004173D7 /* GravityTest_1_ViewController.swift in Sources */,
+				C5DD9BCD1FFADE35004173D7 /* GravityTest_3_SKScene.swift in Sources */,
+				C5DD9BD31FFBAFBD004173D7 /* ParticleTest_1_ViewController.swift in Sources */,
+				C5DD9BC71FFAD943004173D7 /* GravityTest_1_SKScene.swift in Sources */,
 				C5B724B31FFA96BD00451FD7 /* LightScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
