@@ -28,3 +28,8 @@ internal func addParticle(center:CGPoint){
 
 Set the following image as ParticleTest_2's texture.  
 <img src="https://github.com/ymmtshny/SpriteKitWithUIKitSample/blob/master/SpriteKitWithUIKitSample/New%20Group1/Assets.xcassets/Particle%20Sprite%20Atlas.spriteatlas/balloons.imageset/8-colorful-balloons-png-image-download-balloons.png?raw=true" width="120" />
+
+
+
+## License
+MIT
