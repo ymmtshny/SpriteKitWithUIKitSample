@@ -17,7 +17,11 @@ class SKUIViewController :  UIViewController {
         super.viewDidLoad()
         skView = SKView(frame: view.frame)
         skView.center = view.center
-        
+        skView.isUserInteractionEnabled = false
+        skView.allowsTransparency = true
+        let initialScene = SKScene()
+        initialScene.backgroundColor = .clear
+        skView.presentScene(initialScene)
         self.view.addSubview(skView)
     }
     

@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     let titleArray = ["Gravity Test 1",
                       "Gravity Test 2",
                       "Gravity Test 3",
-                      "ParticleTest 1"]
+                      "ParticleTest 1",
+                      "ParticleTest 2"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,15 +35,6 @@ class ViewController: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
 
-//    func showParticle() {
-//        let skView = SKView(frame: CGRect(x:0,y:0,width:300,height:300))
-//        skView.center = view.center
-//        self.view.addSubview(skView)
-//        let scene = LightScene(size: skView.frame.size)
-//        skView.ignoresSiblingOrder = true
-//        scene.scaleMode = .aspectFill
-//        skView.presentScene(scene)
-//    }
 }
 
 extension ViewController : UITableViewDelegate, UITableViewDataSource {
@@ -71,6 +63,9 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
             self.navigationController?.pushViewController(vc, animated: true)
         case 3:
             let vc = ParticleTest_1_ViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 4:
+            let vc = ParticleTest_2_ViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         default:()
         }

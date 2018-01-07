@@ -15,17 +15,13 @@ class ParticleTest_1_ViewController: SKUIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        skView.isUserInteractionEnabled = false
-        skView.allowsTransparency = true
-        let initialScene = SKScene()
-        initialScene.backgroundColor = .clear
-        skView.presentScene(initialScene)
         testButton.addTarget(self, action: #selector(tapTestButton(_:)), for: .touchUpInside)
     }
     
     @IBAction func tapTestButton(_ sender:UIButton) {
         let scene = ParticleTest_1_SKScene(size: view.frame.size)
         scene.backgroundColor = .clear
+        scene.addParticle(center:sender.center)
         skView.presentScene(scene)
     }
     

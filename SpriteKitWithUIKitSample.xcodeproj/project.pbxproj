@@ -28,6 +28,11 @@
 		C5DD9BDA1FFBB01E004173D7 /* ParticleTest_1.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5DD9BD91FFBB01E004173D7 /* ParticleTest_1.sks */; };
 		C5DD9BDC1FFBB03F004173D7 /* ParticleTest_1_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5DD9BDB1FFBB03F004173D7 /* ParticleTest_1_ViewController.xib */; };
 		C5DD9BDE1FFBB1D5004173D7 /* ParticleTest_1_SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD9BDD1FFBB1D5004173D7 /* ParticleTest_1_SKScene.swift */; };
+		C5FE41F22001DC270093D934 /* ParticleTest_2_SKScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FE41F12001DC270093D934 /* ParticleTest_2_SKScene.swift */; };
+		C5FE41F52001DC3F0093D934 /* ParticleTest_2.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5FE41F32001DC3F0093D934 /* ParticleTest_2.sks */; };
+		C5FE41F62001DC3F0093D934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FE41F42001DC3F0093D934 /* Assets.xcassets */; };
+		C5FE41F82001DC6B0093D934 /* ParticleTest_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FE41F72001DC6B0093D934 /* ParticleTest_2_ViewController.swift */; };
+		C5FE41FA2001DC720093D934 /* ParticleTest_2_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FE41F92001DC720093D934 /* ParticleTest_2_ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,11 @@
 		C5DD9BD91FFBB01E004173D7 /* ParticleTest_1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleTest_1.sks; sourceTree = "<group>"; };
 		C5DD9BDB1FFBB03F004173D7 /* ParticleTest_1_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticleTest_1_ViewController.xib; sourceTree = "<group>"; };
 		C5DD9BDD1FFBB1D5004173D7 /* ParticleTest_1_SKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleTest_1_SKScene.swift; sourceTree = "<group>"; };
+		C5FE41F12001DC270093D934 /* ParticleTest_2_SKScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleTest_2_SKScene.swift; sourceTree = "<group>"; };
+		C5FE41F32001DC3F0093D934 /* ParticleTest_2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleTest_2.sks; sourceTree = "<group>"; };
+		C5FE41F42001DC3F0093D934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5FE41F72001DC6B0093D934 /* ParticleTest_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleTest_2_ViewController.swift; sourceTree = "<group>"; };
+		C5FE41F92001DC720093D934 /* ParticleTest_2_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticleTest_2_ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +166,11 @@
 		C5DD9BDF1FFBBD7A004173D7 /* ParticleTest_2 */ = {
 			isa = PBXGroup;
 			children = (
+				C5FE41F12001DC270093D934 /* ParticleTest_2_SKScene.swift */,
+				C5FE41F32001DC3F0093D934 /* ParticleTest_2.sks */,
+				C5FE41F42001DC3F0093D934 /* Assets.xcassets */,
+				C5FE41F72001DC6B0093D934 /* ParticleTest_2_ViewController.swift */,
+				C5FE41F92001DC720093D934 /* ParticleTest_2_ViewController.xib */,
 			);
 			name = ParticleTest_2;
 			path = "New Group1";
@@ -220,14 +235,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FE41FA2001DC720093D934 /* ParticleTest_2_ViewController.xib in Resources */,
 				C5DD9BDA1FFBB01E004173D7 /* ParticleTest_1.sks in Resources */,
 				C5B724A71FFA95A900451FD7 /* LaunchScreen.storyboard in Resources */,
+				C5FE41F62001DC3F0093D934 /* Assets.xcassets in Resources */,
 				C5B724B11FFA964F00451FD7 /* Bokeh.sks in Resources */,
 				C5DD9BDC1FFBB03F004173D7 /* ParticleTest_1_ViewController.xib in Resources */,
 				C5B724A41FFA95A900451FD7 /* Assets.xcassets in Resources */,
 				C5B724A21FFA95A900451FD7 /* Main.storyboard in Resources */,
 				C5DD9BD11FFB8E13004173D7 /* Assets.xcassets in Resources */,
 				C5B724AF1FFA961500451FD7 /* LightScene.sks in Resources */,
+				C5FE41F52001DC3F0093D934 /* ParticleTest_2.sks in Resources */,
 				C5DD9BD01FFB8E13004173D7 /* rain.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +264,9 @@
 				C5B724BB1FFAD07300451FD7 /* SKUIViewController.swift in Sources */,
 				C5B7249D1FFA95A900451FD7 /* AppDelegate.swift in Sources */,
 				C5DD9BDE1FFBB1D5004173D7 /* ParticleTest_1_SKScene.swift in Sources */,
+				C5FE41F22001DC270093D934 /* ParticleTest_2_SKScene.swift in Sources */,
 				C5DD9BC81FFAD943004173D7 /* GravityTest_1_ViewController.swift in Sources */,
+				C5FE41F82001DC6B0093D934 /* ParticleTest_2_ViewController.swift in Sources */,
 				C5DD9BCD1FFADE35004173D7 /* GravityTest_3_SKScene.swift in Sources */,
 				C5DD9BD31FFBAFBD004173D7 /* ParticleTest_1_ViewController.swift in Sources */,
 				C5DD9BC71FFAD943004173D7 /* GravityTest_1_SKScene.swift in Sources */,

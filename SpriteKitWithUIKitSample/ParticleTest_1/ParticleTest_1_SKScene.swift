@@ -12,12 +12,11 @@ class ParticleTest_1_SKScene : SKScene {
     
     override func didMove(to view: SKView) {
         super.didMove(to: view)
-        addParticle()
     }
     
-    func addParticle(){
+    internal func addParticle(center:CGPoint){
         if let node = SKEmitterNode(fileNamed: "ParticleTest_1") {
-            node.position = CGPoint(x: frame.width / 2, y: frame.height / 2)
+            node.position = center
             self.addChild(node)
             node.run(
                 SKAction.sequence([
